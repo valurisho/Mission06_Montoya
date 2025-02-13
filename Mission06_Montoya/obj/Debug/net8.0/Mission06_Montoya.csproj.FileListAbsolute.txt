@@ -125,3 +125,4 @@
 /Users/valu.montoya/RiderProjects/Mission06_Montoya/Mission06_Montoya/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/valu.montoya/RiderProjects/Mission06_Montoya/Mission06_Montoya/obj/Debug/net8.0/Mission06_Montoya.csproj.AssemblyReference.cache
 /Users/valu.montoya/RiderProjects/Mission06_Montoya/Mission06_Montoya/obj/Debug/net8.0/Mission0.1A3B2E48.Up2Date
+/Users/valu.montoya/RiderProjects/Mission06_Montoya/Mission06_Montoya/obj/Debug/net8.0/Mission06_Montoya.sourcelink.json

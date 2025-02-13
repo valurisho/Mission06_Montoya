@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission06_Montoya")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d882b477eeb1c7211785222a7f855c9cad298c05")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission06_Montoya")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission06_Montoya")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
