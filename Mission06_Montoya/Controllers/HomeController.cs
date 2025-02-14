@@ -32,7 +32,7 @@ public class HomeController : Controller
     {
         _context.Film.Add(response); // add record to database
         _context.SaveChanges(); //save the changes on the database
-        return View("Confirmation", response);
+        return View("Confirmation", response); //brings up the confirmation view
     }
     
     

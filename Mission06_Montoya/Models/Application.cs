@@ -5,8 +5,8 @@ namespace Mission06_Montoya.Models;
 public class Application
 {
     
-    [Key]
-    [Required]
+    [Key] //need this here to create the key
+    [Required] 
     public int FilmId{get; set;}
     public string Category {get; set;}
     public string Title {get; set;}
