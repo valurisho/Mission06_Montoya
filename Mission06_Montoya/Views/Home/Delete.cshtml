@@ -1,0 +1,11 @@
+@model Movie
+
+<h2>Confirm Deletion</h2>
+<br/>
+<h4>@Model.Title, @Model.Year</h4>
+<form asp-controller="Home" asp-action="Delete" method="post">
+    
+    <input type="hidden" asp-for="MovieId"/>
+    <button type="submit">Delete</button>
+    <a class="btn btn-info" asp-controller="Home" asp-action="Collection">Cancel</a>
+</form>

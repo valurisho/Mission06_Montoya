@@ -13,13 +13,15 @@
         <th>Lend To</th>
         <th>CopiedToPlex</th>
         <th>Notes</th>
+        <td></td>
+        <td></td>
     </tr>
     </thead>
     <tbody>
     @foreach (var x in Model)
     {
         <tr>
-            <td>@x.Category.CategoryName</td>
+            <td>@x.Category?.CategoryName</td>
             <td>@x.Title</td>
             <td>@x.Year</td>
             <td>@x.Director</td>
@@ -28,6 +30,8 @@
             <td>@x.LentTo</td>
             <td>@x.CopiedToPlex</td>
             <td>@x.Notes</td>
+            <td><a class="btn btn-info" asp-controller="Home" asp-action="Edit" asp-route-id="@x.MovieId">Edit</a></td>
+            <td><a class="btn btn-danger" asp-controller="Home" asp-action="Delete" asp-route-id="@x.MovieId">Delete</a></td>
 
         </tr>
     }

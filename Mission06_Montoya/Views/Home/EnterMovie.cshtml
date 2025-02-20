@@ -1,14 +1,10 @@
 @model Movie
 
-@{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
-}
-
 <h1>Enter a Movie into the collection</h1>
 <div>
     <form method="post">
-        <input type="hidden"/>
+        <input type="hidden" asp-for="MovieId"/> @*need this to appear on the record, to update*@
+        
         <label asp-for="CategoryId">Category:</label>
         <select asp-for="CategoryId">
             <option value="">Select a Category</option>
