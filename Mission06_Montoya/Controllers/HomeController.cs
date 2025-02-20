@@ -74,7 +74,7 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult Delete(Movie recordToDelete)
+    public IActionResult Delete(Movie recordToDelete) //post to delete
     {
         _context.Movies.Remove(recordToDelete);
         _context.SaveChanges();

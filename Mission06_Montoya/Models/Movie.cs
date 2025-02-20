@@ -15,13 +15,13 @@ public class Movie
     public Category? Category {get; set;}
     public string Title {get; set;}
     
-    [Range(1888, int.MaxValue, ErrorMessage = "The year must be 1888 or later.")]
+    [Range(1888, int.MaxValue, ErrorMessage = "The year must be 1888 or later.")] //gives an error if they try to submit something lower than 1888
     public int Year {get; set;}
     public string? Director {get; set;}
     public string? Rating {get; set;}
     public bool Edited { get; set; } = false; //defaulting to false
 
-    public bool CopiedToPlex { get; set; } = false;
+    public bool CopiedToPlex { get; set; } = false; //also defaulting to false
     public string? Notes {get; set;}
     public string? LentTo {get; set;}
     

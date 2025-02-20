@@ -1,4 +1,6 @@
-@model List<Movie>
+@model List<Movie> 
+@*has to be the list of movies not only Movie*@
+
 <h2>Movie Collection</h2>
 
 <table class="table table-bordered">
@@ -18,7 +20,7 @@
     </tr>
     </thead>
     <tbody>
-    @foreach (var x in Model)
+    @foreach (var x in Model) //loop through the list of movies
     {
         <tr>
             <td>@x.Category?.CategoryName</td>
