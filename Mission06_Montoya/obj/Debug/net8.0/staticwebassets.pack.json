@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/valu.montoya/RiderProjects/Mission06_Montoya/Mission06_Montoya/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
-    },
-    {
       "Id": "/Users/valu.montoya/RiderProjects/Mission06_Montoya/Mission06_Montoya/wwwroot/img/BaconsaleKate.jpg",
       "PackagePath": "staticwebassets/img/BaconsaleKate.jpg"
     },

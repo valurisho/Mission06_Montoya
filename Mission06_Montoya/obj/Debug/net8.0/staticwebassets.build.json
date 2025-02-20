@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4v4nhpOcPN4A7YZJOPJQqDjWlxAbh0abI3Z90AtnAAw=",
+  "Hash": "RrFqixjGpMO/nLQMC/N1J0mYI17mrBdCGAGVuX2Mruc=",
   "Source": "Mission06_Montoya",
   "BasePath": "_content/Mission06_Montoya",
   "Mode": "Default",
@@ -72,25 +72,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
-    },
-    {
-      "Identity": "/Users/valu.montoya/RiderProjects/Mission06_Montoya/Mission06_Montoya/wwwroot/favicon.ico",
-      "SourceId": "Mission06_Montoya",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/valu.montoya/RiderProjects/Mission06_Montoya/Mission06_Montoya/wwwroot/",
-      "BasePath": "_content/Mission06_Montoya",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
       "Identity": "/Users/valu.montoya/RiderProjects/Mission06_Montoya/Mission06_Montoya/wwwroot/img/BaconsaleKate.jpg",

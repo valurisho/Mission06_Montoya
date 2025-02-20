@@ -8,6 +8,8 @@ public class FilmContext : DbContext
     {
         
     }
-    public DbSet<Application> Film { get; set; } //table
+    public DbSet<Movie> Movies { get; set; } //table
     //Aplication type comes from the Models - Application.cs
+    public DbSet<Category> Categories { get; set; } //table
+    
 }
